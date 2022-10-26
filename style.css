@@ -15,6 +15,7 @@ body{
     background: linear-gradient(blue 0%, green 100%) ;
     color: white;
     width: 100%;
+    z-index: 9;
 }
 
 #hi{
@@ -33,4 +34,31 @@ body{
     margin: 25px auto;
     font-size: 20px;
 }
+
+.menu{
+    list-style: none;
+    font-family: monospace;
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links{
+    float: left;
+    color: white;
+    font-size: 22px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+.links:hover{
+    background-color: slategray;
+    font-size: 25px;
+}
+    
+
 
