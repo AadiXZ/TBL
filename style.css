@@ -38,27 +38,39 @@ body{
 .menu{
     list-style: none;
     font-family: monospace;
-    position: absolute;
-    margin-top: 10px;
-    margin-right: 30px;
+    position: fixed;
+    margin-top: 0px;
     cursor: pointer;
     z-index: 10;
+    color: white;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+   
 }
 
 .links{
-    float: left;
     color: white;
     font-size: 22px;
-    padding-top: 5px;
-    padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    
+    display: inline;    
 }
 .links:hover{
     background-color: slategray;
     font-size: 25px;
 }
-    
 
+#contact{
+    background-color: red;
+    
+}
+.contact_1 h3{
+    display: inline;
+    
+}
+    
+.contact_1 a{
+    color: white;
+}
 
